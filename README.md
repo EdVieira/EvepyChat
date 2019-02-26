@@ -1,4 +1,15 @@
+## Installing Eve
 
+``` bash
+	pip install eve
+```
+
+## Running
+``` bash
+	python api.py
+```
+
+## Examples
 
 Create user
 POST /user
