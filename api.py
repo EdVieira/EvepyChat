@@ -1,8 +1,8 @@
 # encoding: utf-8
 from eve import Eve
-from eve.auth import BasicAuth # For authentications
-from flask import request # Deal with requests
-from bson import ObjectId # For convert _id field from string to ObjectId (for MongoDB)
+from eve.auth import BasicAuth # For authentication
+from flask import request # Deal with request
+from bson import ObjectId # To convert _id field from string to ObjectId (for MongoDB)
 
 class Authenticate(BasicAuth):
 	
