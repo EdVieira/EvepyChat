@@ -17,7 +17,7 @@ POST /user
 {
 	"username":"test",
 	"pwd":"test"
-};
+}
 ```
 
 Create conversation
